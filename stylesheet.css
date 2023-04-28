@@ -1,0 +1,186 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1280px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 38pt;
+}
+
+h1 a{
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia;
+}
+
+nav {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 50px;
+}
+
+nav li{
+    display: inline;
+    list-style-type: none;
+}
+
+nav a {
+    color: #141a1a;
+    background-color: #ddebf3;
+    border-radius: 50px;
+    display: inline;
+    font-weight: bold;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 15px;
+}
+
+nav a:hover {
+    background-color: aquamarine;
+}
+
+#fusion {
+    background-color: #ddebf3;
+    text-align: center;
+    display: block;
+    padding-bottom: 20px;
+}
+
+a {
+    color: #141a1a;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    font-size: 26pt;
+    padding-top: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+}
+
+h3 {
+    padding-top: 35px;
+    padding-bottom: 15px;
+    font-size: 20pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+}
+
+.cater {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.sections {
+    display: flex;
+    border: dotted #ddebf3 20px; 
+}
+
+#flex1 { 
+    flex: left;
+    width: 600px;
+    padding-top: 30px;
+    padding-left: 25px;
+    padding-bottom: 30px;
+}
+
+#flex2 {
+    flex: right;
+    width: 600px;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+}
+
+footer {
+    text-align: center;
+    padding-top: 25px;
+    margin-top: 50px;
+    padding-bottom: 25px;
+    background-color: rgb(38, 48, 70);
+    color: #ddebf3;
+}
+
+#local {
+    width: 570px;
+}
+
+#chef {
+    width: 570px;
+}
+
+#caterh3 {
+    text-align: center;
+}
+
+#h3 {
+    padding-left: 200px;
+}
+
+.para1 {
+    padding-left: 75px;
+}
+
+.para2 {
+    padding-left: 60px;
+}
+
+#contacts {
+    width: 600px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#contactp {
+    text-align: center;
+}
+
+input {
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+select {
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+textarea {
+    height: 100px;
+    width: 575px;
+    margin-bottom: 10px;
+}
+
+fieldset {
+    margin-bottom: 10px;
+    width: 300px;
+    margin-right: 1200px;
+}
+
+#submit {
+    margin-right: 1200px;
+}
+
+#pref {
+    width: 10px;
+}
+
+.flexx {
+    display: flex;
+}
+
+#flexx1 {
+    flex: left;
+    margin-right: 100px;
+}
+
+#flexx2 {
+    flex: right;
+}
